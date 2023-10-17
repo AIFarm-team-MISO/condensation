@@ -1,0 +1,11 @@
+< 전처리 코드 > 
+
+1. 결측치 제거
+
+# 숫자 0으로 표기된 데이터를 결측치로 만들기 위해 nan으로 바꾸는 작업
+df['inTp'].replace(0, np.nan, inplace=True)
+df['outTp'].replace(0, np.nan, inplace=True)
+
+# inTp 열과 outTp 열의 결측치를 해당 열의 평균값으로 대체
+df['inTp'].fillna(df['inTp'].mean(), inplace=True)
+df['outTp'].fillna(df['outTp'].mean(), inplace=True)
