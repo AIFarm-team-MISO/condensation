@@ -34,7 +34,7 @@ Jupyter Notebook 서버는 외부에서 접속할 수 있도록 설정되어 있
 - **Email**: sevenstar15@naver.com  
 
 ### 테스트 방법
-1. 위 URL을 통해 Jupyter Notebook에 접속합니다.
+1. 위 URL을 통해 Jupyter Notebook에 접속합니다.  
 2. 비밀번호를 입력한 후, 제공된 `cs_python.py`  
    또는 `cs.ipynb`를 실행하여 데이터를 분석할 수 있습니다.  
 3. 분석 결과는 `data_anomaly_InHd.csv` 파일로 저장되며,  
